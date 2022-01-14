@@ -1,10 +1,20 @@
 import React from "react";
 
+// Component
+import LeagueCard from "../components/home/LeagueCard/index";
+
+// Assets
+import LeagueData from "../assets/data/LeagueData";
+
 const Home = () => {
   return (
-    <div>
-      <p>Home</p>
-    </div>
+    <>
+      <div className="league-card-wrapper">
+        {LeagueData.map((data, index) => {
+          return <LeagueCard key={index} data={data} />;
+        })}
+      </div>
+    </>
   );
 };
 

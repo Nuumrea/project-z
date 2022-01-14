@@ -1,0 +1,22 @@
+/* Global */
+.body {
+  margin: 0;
+  padding: 0;
+}
+.cursor {
+  cursor: pointer;
+}
+.text-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* Home */
+.league-card-wrapper {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: yellow;
+}

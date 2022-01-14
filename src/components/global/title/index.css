@@ -1,0 +1,7 @@
+.title-wrapper {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: pink;
+}
