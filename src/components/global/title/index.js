@@ -5,7 +5,7 @@ import "./index.css";
 
 const Title = () => {
   return (
-    <div className="title-wrapper">
+    <div className="title-wrapper fs-title yellow">
       <div>
         <span>Live Soccer Score</span>
       </div>

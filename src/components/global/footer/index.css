@@ -3,5 +3,8 @@
   height: 10vh;
   display: flex;
   align-items: center;
-  background-color: brown;
+  border-top: 0.1rem solid #ffd226;
+}
+.footer-wrapper > span {
+  margin: 0 0 0 1rem;
 }

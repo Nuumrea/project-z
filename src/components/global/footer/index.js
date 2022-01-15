@@ -5,9 +5,9 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <div className="footer-wrapper">
+    <footer className="footer-wrapper fs-title yellow">
       <span>Footer</span>
-    </div>
+    </footer>
   );
 };
 

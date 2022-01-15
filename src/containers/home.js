@@ -9,7 +9,7 @@ import LeagueData from "../assets/data/LeagueData";
 const Home = () => {
   return (
     <>
-      <div className="league-card-wrapper">
+      <div className="core-wrapper">
         {LeagueData.map((data, index) => {
           return <LeagueCard key={index} data={data} />;
         })}

@@ -3,5 +3,8 @@
   height: 10vh;
   display: flex;
   align-items: center;
-  background-color: pink;
+  border-bottom: 0.1rem solid #ffd226;
+}
+.title-wrapper > div > span {
+  margin: 0 0 0 1rem;
 }

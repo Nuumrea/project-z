@@ -1,6 +1,15 @@
 .card {
   height: 40%;
   width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0.5rem;
-  background-color: gray;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+.card:hover {
+  height: 41%;
+  width: 26%;
+  margin: 0;
 }

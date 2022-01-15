@@ -1,22 +1,62 @@
-/* Global */
-.body {
+/* reset */
+* {
   margin: 0;
   padding: 0;
+}
+
+/* Global Rules */
+body {
+  background-color: #181818;
+  /* font-family: Bahnschrift; */
+  color: #fbf7f5;
+}
+
+/* COLOR */
+.yellow {
+  color: #ffd226;
+}
+
+/* BACKGROUND COLOR*/
+.bg-black {
+  background-color: #0e1111;
+}
+.bg-medium-black {
+  background-color: #181818;
+}
+.bg-light-black {
+  background-color: #353839;
+}
+.bg-white {
+  background-color: #fbf7f5;
+}
+/* FONT SIZE */
+.fs-title {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.fs-subtitle {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.fs-button {
+  font-size: 1rem;
+}
+.fs-text {
+  font-size: 0.8rem;
+}
+.fs-menu {
+  font-size: 0.7rem;
+  font-weight: bolder;
 }
 .cursor {
   cursor: pointer;
 }
-.text-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 /* Home */
-.league-card-wrapper {
+.core-wrapper {
   width: 100vw;
   height: 80vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
-  background-color: yellow;
+  justify-content: space-evenly;
 }
